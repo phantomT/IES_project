@@ -1,9 +1,0 @@
-<RCC>
-    <qresource prefix="/new/img">
-        <file>IES.png</file>
-        <file>IES2.png</file>
-        <file>IES3.png</file>
-        <file>IES4.png</file>
-        <file>IES5.png</file>
-    </qresource>
-</RCC>
