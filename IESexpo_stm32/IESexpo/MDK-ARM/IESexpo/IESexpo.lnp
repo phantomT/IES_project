@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp
+"iesexpo\startup_stm32f429xx.o"
+"iesexpo\main.o"
+"iesexpo\stm32f4xx_it.o"
+"iesexpo\stm32f4xx_hal_msp.o"
+"iesexpo\stm32f4xx_hal_tim.o"
+"iesexpo\stm32f4xx_hal_tim_ex.o"
+"iesexpo\stm32f4xx_hal_uart.o"
+"iesexpo\stm32f4xx_hal_rcc.o"
+"iesexpo\stm32f4xx_hal_rcc_ex.o"
+"iesexpo\stm32f4xx_hal_flash.o"
+"iesexpo\stm32f4xx_hal_flash_ex.o"
+"iesexpo\stm32f4xx_hal_flash_ramfunc.o"
+"iesexpo\stm32f4xx_hal_gpio.o"
+"iesexpo\stm32f4xx_hal_dma_ex.o"
+"iesexpo\stm32f4xx_hal_dma.o"
+"iesexpo\stm32f4xx_hal_pwr.o"
+"iesexpo\stm32f4xx_hal_pwr_ex.o"
+"iesexpo\stm32f4xx_hal_cortex.o"
+"iesexpo\stm32f4xx_hal.o"
+"iesexpo\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "IESexpo\IESexpo.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "IESexpo.map" -o IESexpo\IESexpo.axf
